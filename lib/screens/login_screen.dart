@@ -113,26 +113,26 @@ class _LoginScreenState extends State<LoginScreen> {
                               ),
                             ),
                             child: _isLoading
-                                ? const CircularProgressIndicator(color: Colors.white)
+                                ? const CircularProgressIndicator(color: Color(0xFF42A5F5))
                                 : const Text(
                                     'LOGIN',
                                     style: TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.bold,
-                                      color: Colors.white,
+                                      color: Color.fromARGB(255, 14, 14, 15),
                                     ),
                                   ),
                           ),
                         ),
                         const SizedBox(height: 16),
-                        Text(
-                          'Demo Credentials:\nstudent/123456\nteacher/123456\nadmin/123456',
-                          textAlign: TextAlign.center,
-                          style: TextStyle(
-                            fontSize: 12,
-                            color: Colors.grey[600],
-                          ),
-                        ),
+                        // Text(
+                        //   'Demo Credentials:\nstudent/123456\nteacher/123456\nadmin/123456',
+                        //   textAlign: TextAlign.center,
+                        //   style: TextStyle(
+                        //     fontSize: 12,
+                        //     color: const Color.fromARGB(255, 198, 15, 15),
+                        //   ),
+                        // ),
                       ],
                     ),
                   ),
