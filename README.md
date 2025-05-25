@@ -105,3 +105,5 @@ Improve web responsiveness for larger screens.
 
 Author
 Developed by Vivek as a Flutter project for college management.
+
+Contact with : handevivek942@gmail.com
