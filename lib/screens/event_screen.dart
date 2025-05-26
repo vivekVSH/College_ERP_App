@@ -140,8 +140,8 @@ class _EventScreenState extends State<EventScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _showCreateEventDialog,
-        child: const Icon(Icons.add),
         tooltip: 'Create Event',
+        child: const Icon(Icons.add),
       ),
     );
   }
@@ -243,31 +243,31 @@ class _EventScreenState extends State<EventScreen> {
       context: context,
       builder: (context) => AlertDialog(
         title: const Text('Create Event'),
-        content: Column(
+        content: const Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const TextField(
+            TextField(
               decoration: InputDecoration(
                 labelText: 'Event Title',
                 border: OutlineInputBorder(),
               ),
             ),
-            const SizedBox(height: 16),
-            const TextField(
+            SizedBox(height: 16),
+            TextField(
               decoration: InputDecoration(
                 labelText: 'Date (YYYY-MM-DD)',
                 border: OutlineInputBorder(),
               ),
             ),
-            const SizedBox(height: 16),
-            const TextField(
+            SizedBox(height: 16),
+            TextField(
               decoration: InputDecoration(
                 labelText: 'Time',
                 border: OutlineInputBorder(),
               ),
             ),
-            const SizedBox(height: 16),
-            const TextField(
+            SizedBox(height: 16),
+            TextField(
               decoration: InputDecoration(
                 labelText: 'Venue',
                 border: OutlineInputBorder(),

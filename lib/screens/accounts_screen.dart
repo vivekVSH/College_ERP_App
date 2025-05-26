@@ -182,13 +182,13 @@ class _AccountsScreenState extends State<AccountsScreen> {
       context: context,
       builder: (context) => AlertDialog(
         title: const Text('Pay Fees'),
-        content: Column(
+        content: const Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Text('Due Amount: ₹ 5,000'),
-            const SizedBox(height: 16),
+            Text('Due Amount: ₹ 5,000'),
+            SizedBox(height: 16),
             TextField(
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 labelText: 'Amount',
                 border: OutlineInputBorder(),
               ),

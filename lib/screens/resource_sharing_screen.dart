@@ -76,8 +76,8 @@ class ResourceSharingScreen extends StatelessWidget {
             const SnackBar(content: Text('Upload functionality coming soon')),
           );
         },
-        child: const Icon(Icons.upload),
         tooltip: 'Upload Resource',
+        child: const Icon(Icons.upload),
       ),
     );
   }

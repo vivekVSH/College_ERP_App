@@ -128,8 +128,8 @@ class _AssignmentScreenState extends State<AssignmentScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _showSubmitDialog,
-        child: const Icon(Icons.upload),
         tooltip: 'Submit Assignment',
+        child: const Icon(Icons.upload),
       ),
     );
   }

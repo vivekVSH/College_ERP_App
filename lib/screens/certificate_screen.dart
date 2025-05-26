@@ -45,16 +45,16 @@ class _CertificateScreenState extends State<CertificateScreen> {
           children: [
             Card(
               color: Theme.of(context).primaryColor,
-              child: Padding(
-                padding: const EdgeInsets.all(16),
+              child: const Padding(
+                padding: EdgeInsets.all(16),
                 child: Row(
                   children: [
-                    const Icon(Icons.card_membership, color: Colors.white, size: 40),
-                    const SizedBox(width: 16),
+                    Icon(Icons.card_membership, color: Colors.white, size: 40),
+                    SizedBox(width: 16),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const Text(
+                        Text(
                           'Digital Certificates',
                           style: TextStyle(
                             color: Colors.white,
