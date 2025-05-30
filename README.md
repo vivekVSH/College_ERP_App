@@ -106,4 +106,5 @@ Improve web responsiveness for larger screens.
 Author
 Developed by Vivek as a Flutter project for college management.
 
-Contact with : handevivek942@gmail.com
+Contact with : Email :handevivek942@gmail.com
+Contact No: 7517033784
